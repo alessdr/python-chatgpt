@@ -4,7 +4,7 @@
 
 Este é um exemplo bem simplificado de como podemos utilizar o ChatGPT de dentro de uma aplicação Python, com poucas linhas de código.
 
-Mais detalhes sobre sua utilização, preparo e funcionamento podem ser obtidos neste [link](https://github.com/alessdr).
+Mais detalhes sobre sua utilização, preparo e funcionamento podem ser obtidos neste [link](https://medium.com/@alessandro_rocha/integrando-aplica%C3%A7%C3%B5es-python-com-o-chatgpt-e1f4d55ef10b?source=friends_link&sk=68ea35269b19dfe814c3fbe37d3e80da).
 
 
 ### Pré-Requisitos
@@ -53,6 +53,6 @@ python main.py
 
 ### Considerações finais
 
-1. Você encontrará mais informações sobre como criar sua chave de API acessando o artigo neste [link](https://github.com/alessdr).
+1. Você encontrará mais informações sobre como criar sua chave de API acessando o artigo neste [link](https://medium.com/@alessandro_rocha/integrando-aplica%C3%A7%C3%B5es-python-com-o-chatgpt-e1f4d55ef10b?source=friends_link&sk=68ea35269b19dfe814c3fbe37d3e80da).
 2. Para alterar a pergunta feita ao ChatGPT, modifique o valor da variável **question**, presente na linha 28.
 3. Este é apenas um exemplo didático e não se preocupa em seguir boas práticas de desenvolvimento e seguraça da informação.
