@@ -21,7 +21,12 @@ def call_chatgpt_api(quest):
 
 
 def process_response(elements):
-    return json.loads(elements)['choices'][0]['text'].strip()
+    try:
+        return json.loads(elements)['choices'][0]['text'].strip() if elements else 'No response.'
+    except KeyError:
+        return json.loads(elements)['error']['message'].strip()
+    except Exception:
+        return "Unknown error."
 
 
 if __name__ == '__main__':
